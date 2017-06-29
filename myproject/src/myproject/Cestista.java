@@ -5,8 +5,9 @@ public class Cestista {
 	private String nome;
 	private String squadra;
 	
-	public Cestista(String n) {
+	public Cestista(String n, String s) {
 		nome = n;
+		squadra = s;
 	}
 
 	/**
