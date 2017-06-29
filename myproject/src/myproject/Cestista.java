@@ -5,6 +5,7 @@ public class Cestista {
 	private int altezza;
 	private String squadra;
 	private int numScarpe;
+	private int salario;
 	public int getNumScarpe() {
 		return numScarpe;
 	}
