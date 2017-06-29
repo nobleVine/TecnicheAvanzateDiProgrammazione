@@ -6,5 +6,14 @@ public class Cestista {
 	private String squadra;
 	private int numScarpe;
 	private int eta;
+	
+	public int getAltezza() {
+		return altezza;
+	}
+	public void setAltezza(int altezza) {
+		this.altezza = altezza;
+	}
+	
+	
 
 }
