@@ -38,5 +38,9 @@ public class Cestista {
 	public void setSquadra(String squadra) {
 		this.squadra = squadra;
 	}
+	
+	public void stampaCoro(){
+		System.out.println("LET'S GO");
+	}
 
 }
