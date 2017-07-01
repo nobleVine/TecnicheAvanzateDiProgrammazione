@@ -44,4 +44,18 @@ public class Cestista {
 		System.out.println("LET'S GO");
 	}
 
+	/**
+	 * @return the freeAgency
+	 */
+	public boolean isFreeAgency() {
+		return freeAgency;
+	}
+
+	/**
+	 * @param freeAgency the freeAgency to set
+	 */
+	public void setFreeAgency(boolean freeAgency) {
+		this.freeAgency = freeAgency;
+	}
+
 }
