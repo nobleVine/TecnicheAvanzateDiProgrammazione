@@ -5,12 +5,17 @@ public class Cestista {
 	private String nome;
 	private String squadra;
 	private boolean freeAgency = true;
+	private int cash;
 	
-	public Cestista(String n, String s) {
+	public Cestista(String n, String s, int c) {
 		nome = n;
 		squadra = s;
+		cash = c;
 	}
 
+	public int getCash() {
+		return cash;
+	}
 	/**
 	 * @return the nome
 	 */
