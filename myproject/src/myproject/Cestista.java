@@ -5,10 +5,12 @@ public class Cestista {
 	private String nome;
 	private String squadra;
 	private boolean freeAgency = true;
+	public int pub;
 	
-	public Cestista(String n, String s) {
+	public Cestista(String n, String s, boolean f) {
 		nome = n;
 		squadra = s;
+		this.freeAgency = f;
 	}
 
 	/**
