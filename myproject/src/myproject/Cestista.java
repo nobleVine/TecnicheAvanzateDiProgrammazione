@@ -5,6 +5,7 @@ public class Cestista {
 	private String nome;
 	private String squadra;
 	private boolean freeAgency = true;
+	private int aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa = 0;
 
 	public Cestista(String n, String s) {
 		nome = n;
