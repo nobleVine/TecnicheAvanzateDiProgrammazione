@@ -6,6 +6,7 @@ public class Cestista {
 	private String squadra;
 	private boolean freeAgency = true;
 	public int pub;
+	private String k = "n";
 	
 	public Cestista(String n, String s, boolean f) {
 		nome = n;
@@ -58,6 +59,20 @@ public class Cestista {
 	 */
 	public void setFreeAgency(boolean freeAgency) {
 		this.freeAgency = freeAgency;
+	}
+
+	/**
+	 * @return the k
+	 */
+	public String getK() {
+		return k;
+	}
+
+	/**
+	 * @param k the k to set
+	 */
+	public void setK(String k) {
+		this.k = k;
 	}
 
 }
