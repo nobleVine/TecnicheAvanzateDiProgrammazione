@@ -4,6 +4,12 @@ public class Cestista {
 	
 	private int altezza;
 	private String squadra;
+	public String getSquadra() {
+		return squadra;
+	}
+	public void setSquadra(String squadra) {
+		this.squadra = squadra;
+	}
 	private int numScarpe;
 	private int salario;
 	
